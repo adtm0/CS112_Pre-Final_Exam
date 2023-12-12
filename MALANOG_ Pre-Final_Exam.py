@@ -26,4 +26,4 @@ for i in range(n_start, n_end + 1):
     else:
             prime_list.append(i)
             
-print(f"Prime numbers between 1 and 10 are: {str(prime_list).strip('[],').replace(',','')}")
+print(f"Prime numbers between {n_start} and {n_end} are: {str(prime_list).strip('[],').replace(',','')}")
